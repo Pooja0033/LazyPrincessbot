@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🔔 BOT Updates 🤖', url='https://t.me/PRVOFFCL')
+                InlineKeyboardButton('𝗠ᴏᴠɪᴇ 𝗖ʜᴀɴɴᴇʟ', url='https://t.me/PRVOFFCL')
             ],
             [
-                InlineKeyboardButton('⚡ 𝗦ᴜᴘᴘᴏʀᴛ 𝗚ʀᴏᴜᴘ ⚡', url=f"https://t.me/kmtz_v4"),
+                InlineKeyboardButton(' 𝗦ᴜᴘᴘᴏʀᴛ 𝗚ʀᴏᴜᴘ ', url=f"https://t.me/kmtz_v4"),
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
@@ -45,10 +45,10 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('➕↖️ Add Me To Your Groups ↗️➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕️ 𝗔ᴅᴅ 𝗠ᴇ 𝗧ᴏ 𝗬ᴏᴜʀ 𝗖ʜᴀᴛ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('𝗦ᴜᴘᴘᴏʀᴛ 𝗚ʀᴏᴜᴘ', url=f"https://t.me/kmtz_v4"),
-            InlineKeyboardButton('🔔 BOT Updates 🤖', url='https://t.me/PRVOFFCL')
+            InlineKeyboardButton('𝗠ᴏᴠɪᴇ 𝗖ʜᴀɴɴᴇʟ', url='https://t.me/PRVOFFCL')
             ],[
              InlineKeyboardButton('🙆🏻 Help 🦾', callback_data='help'),
             InlineKeyboardButton('♥️ About ♥️', callback_data='about')
@@ -70,7 +70,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🔥 Join Updates Channel 🔥", url=invite_link.invite_link
+                    "𝗝ᴏɪɴ 𝗨ᴩᴅᴀᴛᴇꜱ 𝗖ʜᴀɴɴᴇʟ", url=invite_link.invite_link
                 )
             ]
         ]
@@ -91,10 +91,10 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('➕↖️ Add Me To Your Groups ↗️➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕️ 𝗔ᴅᴅ 𝗠ᴇ 𝗧ᴏ 𝗬ᴏᴜʀ 𝗖ʜᴀᴛ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('𝗦ᴜᴘᴘᴏʀᴛ 𝗚ʀᴏᴜᴘ', url=f"https://t.me/kmtz_v4"),
-            InlineKeyboardButton('🔔 BOT Updates 🤖', url='https://t.me/PRVOFFCL')
+            InlineKeyboardButton('𝗠ᴏᴠɪᴇ 𝗖ʜᴀɴɴᴇʟ', url='https://t.me/PRVOFFCL')
             ],[
              InlineKeyboardButton('🙆🏻 Help 🦾', callback_data='help'),
             InlineKeyboardButton('♥️ About ♥️', callback_data='about')
