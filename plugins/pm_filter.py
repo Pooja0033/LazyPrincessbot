@@ -344,7 +344,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             title = query.message.chat.title
 
         else:
-            return await query.answer('♥️ Love @LazyDeveloper ♥️')
+            return await query.answer('♥️ Love 𝗣ʀᴀɴᴀꪜ  ♥️')
 
         st = await client.get_chat_member(grp_id, userid)
         if (st.status == enums.ChatMemberStatus.OWNER) or (str(userid) in ADMINS):
@@ -398,7 +398,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=keyboard,
             parse_mode=enums.ParseMode.MARKDOWN
         )
-        return await query.answer('♥️ Love @LazyDeveloper ♥️')
+        return await query.answer('♥️ Love 𝗣ʀᴀɴᴀꪜ  ♥️')
     elif "connectcb" in query.data:
         await query.answer()
 
